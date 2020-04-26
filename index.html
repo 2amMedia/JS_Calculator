@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <style>
+        body {
+            background-color: paleturquoise; }
+     div {
+  width: 30px;
+  border: 15px solid salmon;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;         
+}
+      </style>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+
+         <form>
+
+      Value 1: <input type="text" id="value1"><br>
+      Value 2: <input type="text" id="value2"><br>
+      Operation:
+      <select id="operator">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+        <option value="exp">Exponent</option>
+      </select><br>
+
+      <button type="button" onclick="calc()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+  </body>
+  <script src="main.js"></script>
+</html>
